@@ -1,19 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;700&display=swap");
 :root {
-  --white: hsl(0, 0%, 100%);
   --light-gray: hsl(212, 45%, 89%);
-  --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
-}
-
-@font-face {
-  font-family: "Outfit";
-  src: url(./fonts/Outfit-VariableFont_wght.ttf);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --white: hsl(0, 0%, 100%);
 }
 
 body {
   background-color: var(--light-gray);
-  font-family: "Outfit";
+  font-family: "Outfit", sans-serif;
   text-align: center;
+  text-decoration: none;
+  margin: 0;
 }
 
 main {
@@ -21,63 +19,54 @@ main {
   border-radius: 20px;
   width: 320px;
   height: 497px;
-  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 img {
   width: 288px;
   height: 288px;
   margin: 16px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border-radius: 10px;
 }
 
+.text-box {
+  display: flexbox;
+  width: 288px;
+  height: 129px;
+  margin: 16px;
+}
+
 h1 {
-  margin: 0px;
-  font-size: 22px;
-  color: var(--dark-blue);
-
   height: 56px;
-
-  /* Heading */
-
-  font-family: "Outfit";
+  left: 0%;
+  right: 0%;
   font-weight: 700;
-  font-size: 22px;
   line-height: 28px;
-  text-align: center;
-  margin-left: 16px;
-  margin-right: 16px;
 
-  /* Dark Navy */
-
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 16px;
   color: #1f314f;
-  letter-spacing: 0.1875px;
+  justify-content: center;
 }
 
 p {
-  font-size: 15px;
-  margin-bottom: 40px;
-  margin-top: 16px;
-  margin-left: 32px;
-  margin-right: 32px;
-  font-weight: normal;
-  position: absolute;
+  justify-content: center;
   height: 57px;
-
-  /* Body */
-
-  font-family: "Outfit";
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.1875px;
+
+  margin-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
 
   color: #7d889e;
 }
