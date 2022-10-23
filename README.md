@@ -11,8 +11,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/first-challenge-small-issues-remaining-hlmh7Kr23_
+- Live Site URL: https://maxnorderfeldt.github.io/qr-code-component-main/
 
 ### Built with
 
@@ -30,5 +30,5 @@ https://www.joshwcomeau.com/css/pixel-perfection/
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/maxNorderfeldt)
 
